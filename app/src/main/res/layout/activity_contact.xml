@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="vertical"
+tools:context=".contact"
+    android:background="@drawable/back1"
+    >
+    <TextView
+        android:padding="14sp"
+        android:textSize="24sp"
+        android:background="#372ba6"
+        android:textColor="#ffff"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Select Contacts"/>
+
+    <ListView
+        android:id="@+id/list"
+        android:layout_width="match_parent"
+        android:layout_height="550sp"
+        android:layout_marginTop="0dp"
+        android:background="#ffff"
+        android:clickable="true" />
+
+    <Button
+        android:id="@+id/add"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@null"
+        android:textSize="16sp"
+        android:layout_marginTop="20sp"
+        android:text="Update Selected"
+        android:textAllCaps="false"
+        android:textColor="#ffff"/>
+
+
+</LinearLayout>
